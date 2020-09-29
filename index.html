@@ -51,6 +51,9 @@
             <div class="masthead-heading text-uppercase">RAW webdev</div>
             <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">LEARN MORE</a>
         </div>
+
+        <div id="like_button_container"></div>
+
     </header>
     <!-- Capabilities-->
     <section class="page-section" id="services">
@@ -494,7 +497,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
-                               <!-- Project Details-->
+                                <!-- Project Details-->
                                 <h2 class="text-uppercase">Build it</h2>
                                 <p>RAWwebdev is currently working to bring you something new. Stay tuned.</p>
                                 <img class="img-fluid d-block mx-auto" src="" alt="" />
@@ -544,5 +547,14 @@
     <script src="assets/mail/contact_me.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="like_button.js"></script>
+
 </body>
 </html>
