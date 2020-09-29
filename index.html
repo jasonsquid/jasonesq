@@ -52,16 +52,15 @@
             <div class="masthead-heading text-uppercase">RAW webdev</div>
             <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">LEARN MORE</a>
         </div>
-
-        <div id="like_button_container"></div>
-
     </header>
     <!-- Capabilities-->
     <section class="page-section" id="services">
+        <!-- React container-->
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Capabilities</h2>
                 <h3 class="section-subheading text-muted">Proven ability to deliver compelling results.</h3>
+                <div id="like_button_container"></div>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
@@ -91,7 +90,7 @@
             </div>
         </div>
     </section>
-    <!-- Projects Grid-->
+    <!-- Projects grid-->
     <section class="page-section bg-light" id="portfolio">
         <div class="container">
             <div class="text-center">
@@ -352,7 +351,7 @@
             </div>
         </div>
     </footer>
-    <!-- Portfolio Modals-->
+    <!-- Portfolio modals-->
     <!-- Modal 1-->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -393,7 +392,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
-                                <!-- Project Details Go -->
+                                <!-- Project details go -->
                                 <h2 class="text-uppercase">CREATIVE</h2>
                                 <p class="item-intro text-muted">Below are a few fictitious company ads and graphic applications that I created for my portfolio.</p>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-creative-portfolio-01.jpg" alt="" />
@@ -436,7 +435,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
-                                <!-- Project Details Go-->
+                                <!-- Project details go-->
                                 <h2 class="text-uppercase">Animation</h2>
                                 <p class="item-intro text-muted">Below are a few fictitious mobile-friendly logo animations created for my portfolio.</p>
                                 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rnnoSYUlSbI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -461,7 +460,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
-                                <!-- Project Details-->
+                                <!-- Project details-->
                                 <h2 class="text-uppercase">Experience</h2>
                                 <p class="item-intro text-muted"></p>
                                 <p>Here's a sample of an iPhone Bass fishing app prototype I made for my portfolio to demonstrate my UX/UI and prototyping capabilities.</p>
@@ -498,7 +497,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
-                                <!-- Project Details-->
+                                <!-- Project details-->
                                 <h2 class="text-uppercase">Build it</h2>
                                 <p>RAWwebdev is currently working to bring you something new. Stay tuned.</p>
                                 <img class="img-fluid d-block mx-auto" src="" alt="" />
@@ -522,7 +521,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
-                                <!-- Project Details-->
+                                <!-- Project details-->
                                 <h2 class="text-uppercase">Video</h2>
                                 <p class="item-intro text-muted">Film and video editing.</p>
                                 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jUbzHeVTuSk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -548,6 +547,17 @@
     <script src="assets/mail/contact_me.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+
+    <!-- ... other HTML ... -->
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="like_button.js"></script>
+
+</body>
 
 
 </body>
