@@ -1,23 +1,6 @@
-﻿<?php
-  $bg = array('header-bg.jpg', 'header-bg2.jpg', 'header-bg3.jpg' ); // array of filenames
-
-  $i = rand(0, count($bg)-1); // generate random number size of the array
-  $selectedBg = "$bg[$i]"; // set variable equal to which random filename was chosen
-?>
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <style type="text/css">
-        <!--
-        body {
-            background: url(images/<?php echo $selectedBg;
-            ?>) no-repeat;
-        }
-        -->
-    </style>
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179256397-1"></script>
     <script>window.dataLayer = window.dataLayer || [];
