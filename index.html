@@ -1,6 +1,23 @@
-﻿<!DOCTYPE html>
+﻿<?php
+  $bg = array('header-bg.jpg', 'header-bg2.jpg', 'header-bg3.jpg' ); // array of filenames
+
+  $i = rand(0, count($bg)-1); // generate random number size of the array
+  $selectedBg = "$bg[$i]"; // set variable equal to which random filename was chosen
+?>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <style type="text/css">
+        <!--
+        body {
+            background: url(images/<?php echo $selectedBg;
+            ?>) no-repeat;
+        }
+        -->
+    </style>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179256397-1"></script>
     <script>window.dataLayer = window.dataLayer || [];
@@ -25,7 +42,6 @@
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 <body id="page-top">
-
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
@@ -53,6 +69,7 @@
             <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">LEARN MORE</a>
         </div>
     </header>
+
     <!-- Capabilities-->
     <section class="page-section" id="services">
         <!-- React container-->
@@ -272,8 +289,9 @@
                     <p class="large text-muted">
                         Experienced graphic design professional, motivated with an entrepreneurial mindset, hard-working father of three, strong work ethic, and proven ability to deliver compelling results.
                         <br>
-                        <!-- React .js container-->
-                        <p id="like_button_container"></p>
+                        <!-- Mike The React .js container is below-->
+                    <p id="like_button_container"></p>
+                    <!-- -->
                     </p>
                 </div>
             </div>
@@ -557,10 +575,8 @@
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
 
     <!-- Load our React component. -->
-    <script src="like_button.js"></script>
+    <script src="js/like_button.js"></script>
 
 </body>
 
-
-</body>
 </html>
