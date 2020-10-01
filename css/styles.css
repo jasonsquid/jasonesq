@@ -10174,7 +10174,7 @@ header.masthead .masthead-heading {
     margin-bottom: 2rem;
   }
   header.masthead .masthead-heading {
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: 700;
     line-height: 4.5rem;
     margin-bottom: 4rem;
@@ -10218,14 +10218,14 @@ header.masthead3 .masthead-heading {
     }
 
         header.masthead3 .masthead-subheading {
-            font-size: 2.25rem;
+            font-size: 1.5rem;
             font-style: italic;
             line-height: 2.25rem;
             margin-bottom: 2rem;
         }
 
         header.masthead3 .masthead-heading {
-            font-size: 4.5rem;
+            font-size: 4.0rem;
             font-weight: 700;
             line-height: 4.5rem;
             margin-bottom: 4rem;
@@ -10279,7 +10279,7 @@ header.masthead2 .masthead-heading {
         }
 
         header.masthead2 .masthead-heading {
-            font-size: 4.5rem;
+            font-size: 4.0rem;
             font-weight: 700;
             line-height: 4.5rem;
             margin-bottom: 4rem;
