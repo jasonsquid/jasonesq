@@ -99,6 +99,8 @@
 
         <!-- Carousel
     ================================================== -->
+        <!-- React-DOM container-->
+        <div id="like_button_container"></div>
         <!-- Capabilities-->
         <section class="page-section" id="services">
             <!-- React container-->
@@ -386,14 +388,14 @@
             </div>
 
             <!-- Carousel partner logos
-        ================================================== -->
+    ================================================== -->
             <!-- Contact-->
             <section class="page-section" id="contact">
-                
-                    <div class="text-center">
-                        <h2 class="section-heading text-uppercase">Contact</h2>
-                        <h3 class="section-subheading text-muted">Need a professional?</h3>
-                        <div class="text-center"><p style="color: #fff;">Contact me via <a style="color: #fff;" href="https://www.linkedin.com/in/jason-esquinaldo">Linkedin</a>.</p></div>
+
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contact</h2>
+                    <h3 class="section-subheading text-muted">Need a professional?</h3>
+                    <div class="text-center"><p style="color: #fff;">Contact me via <a style="color: #fff;" href="https://www.linkedin.com/in/jason-esquinaldo">Linkedin</a>.</p></div>
             </section>
             <!-- FOOTER-->
             <footer class="footer py-4">
@@ -498,7 +500,6 @@
                                         <h2 style="color: #fff;" class="text-uppercase">Animation</h2>
                                         <p style="color: #fff;" class="item-intro text-muted">Logo animation and motion graphics</p>
                                         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rnnoSYUlSbI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ncaIqn7JbzM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                         <p></p>
                                         <button class="btn btn-primary" data-dismiss="modal" type="button">
                                             <i class="fas fa-times mr-1"></i>
@@ -608,10 +609,16 @@
             <!-- Core theme JS-->
             <script src="js/scripts.js"></script>
             <!-- ... other HTML ... -->
+           
+            <div id="like_button_container"></div>
+
             <!-- Load React. -->
             <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
             <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
             <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+            <!-- Load our React component. -->
+            <script src="like_button.js"></script>
 
 </body>
 
