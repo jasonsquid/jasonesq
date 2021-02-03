@@ -359,10 +359,11 @@ template {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  margin-bottom: 0.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 100;
-  line-height: 1.2;
+    margin-bottom: 0.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 100;
+    color: #fff;
+    line-height: 1.2;
 }
 
 h1, .h1 {
@@ -6156,7 +6157,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-    background-color: #F2F2F2 !important;
+    background-color: #3f546d !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -10010,11 +10011,12 @@ p {
 .page-section {
   padding: 6rem 0;
 }
-.page-section h2.section-heading {
-  font-size: 2.5rem;
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
+    .page-section h2.section-heading {
+        font-size: 2.5rem;
+        color: #fff;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
 .page-section h3.section-subheading {
   font-size: 1.50rem;
   font-weight: 100;
