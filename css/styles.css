@@ -5944,7 +5944,7 @@ a.close.disabled {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
-  width: 20px;
+  width: 10px;
   height: 20px;
   background: no-repeat 50%/100% 100%;
 }
@@ -5970,22 +5970,22 @@ a.close.disabled {
   margin-left: 15%;
   list-style: none;
 }
-.carousel-indicators li {
-  box-sizing: content-box;
-  flex: 0 1 auto;
-  width: 30px;
-  height: 3px;
-  margin-right: 3px;
-  margin-left: 3px;
-  text-indent: -999px;
-  cursor: pointer;
-  background-color: #231f20;
-  background-clip: padding-box;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  opacity: 0.5;
-  transition: opacity 0.6s ease;
-}
+    .carousel-indicators li {
+        box-sizing: content-box;
+        flex: 0 1 auto;
+        width: 20px;
+        height: 3px;
+        margin-right: 3px;
+        margin-left: 3px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color: #e9ecef;
+        background-clip: padding-box;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        opacity: 0.5;
+        transition: opacity 0.6s ease;
+    }
 @media (prefers-reduced-motion: reduce) {
   .carousel-indicators li {
     transition: none;
@@ -10165,14 +10165,14 @@ header.masthead .masthead-subheading {
 }
 
 header.masthead .masthead-heading {
-    font-size: 3.00rem;
+    font-size: 2.50rem;
     font-weight: 300;
     line-height: 3rem;
     margin-bottom: 1rem;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-@media (min-width: 768px) {
+@media (min-width: 708px) {
     header.masthead {
         padding-top: 17rem;
         padding-bottom: 12.5rem;
@@ -10180,13 +10180,14 @@ header.masthead .masthead-heading {
 
         header.masthead .masthead-subheading {
             font-size: 1.5rem;
+            font-weight: 100;
             font-style: italic;
             line-height: 2rem;
-            margin-bottom: 1rem;
+            margin-bottom: 4rem;
         }
 
         header.masthead .masthead-heading {
-            font-size: 3.5rem;
+            font-size: 2.5rem;
             font-weight: 100;
             line-height: 3rem;
             margin-bottom: 1rem;
@@ -10210,6 +10211,7 @@ header.masthead2 {
 
     header.masthead2 .masthead-subheading {
         font-size: 1.5rem;
+        font-weight: 100;
         font-style: italic;
         line-height: 2rem;
         margin-bottom: 55px;
@@ -10217,7 +10219,7 @@ header.masthead2 {
     }
 
     header.masthead2 .masthead-heading {
-        font-size: 3.00rem;
+        font-size: 2.50rem;
         font-weight: 300;
         line-height: 3rem;
         margin-bottom: 1rem;
@@ -10232,13 +10234,14 @@ header.masthead2 {
 
         header.masthead2 .masthead-subheading {
             font-size: 1.5rem;
+            font-weight: 100;
             font-style: italic;
             line-height: 2rem;
-            margin-bottom: 1rem;
+            margin-bottom: 4rem;
         }
 
         header.masthead2 .masthead-heading {
-            font-size: 3.5rem;
+            font-size: 2.5rem;
             font-weight: 100;
             line-height: 3rem;
             margin-bottom: 1rem;
@@ -10259,16 +10262,17 @@ header.masthead3 {
 }
 
 
-header.masthead3 .masthead-subheading {
-    font-size: 1.5rem;
-    font-style: italic;
-    line-height: 2rem;
-    margin-bottom: 55px;
-    font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
+    header.masthead3 .masthead-subheading {
+        font-size: 1.5rem;
+        font-weight: 100;
+        font-style: italic;
+        line-height: 2rem;
+        margin-bottom: 55px;
+        font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
 
 header.masthead3 .masthead-heading {
-    font-size: 3.00rem;
+    font-size: 2.50rem;
     font-weight: 300;
     line-height: 3rem;
     margin-bottom: 1rem;
@@ -10283,13 +10287,14 @@ header.masthead3 .masthead-heading {
 
         header.masthead3 .masthead-subheading {
             font-size: 1.5rem;
+            font-weight: 100;
             font-style: italic;
             line-height: 2rem;
-            margin-bottom: 1rem;
+            margin-bottom: 4rem;
         }
 
         header.masthead3 .masthead-heading {
-            font-size: 3.5rem;
+            font-size: 2.5rem;
             font-weight: 100;
             line-height: 3rem;
             margin-bottom: 1rem;
@@ -10312,6 +10317,7 @@ header.masthead4 {
 
     header.masthead4 .masthead-subheading {
         font-size: 1.5rem;
+        font-weight: 100;
         font-style: italic;
         line-height: 2rem;
         margin-bottom: 55px;
@@ -10319,7 +10325,7 @@ header.masthead4 {
     }
 
     header.masthead4 .masthead-heading {
-        font-size: 3.00rem;
+        font-size: 2.50rem;
         font-weight: 300;
         line-height: 3rem;
         margin-bottom: 1rem;
@@ -10334,13 +10340,14 @@ header.masthead4 {
 
         header.masthead4 .masthead-subheading {
             font-size: 1.5rem;
+            font-weight: 100;
             font-style: italic;
             line-height: 2rem;
-            margin-bottom: 1rem;
+            margin-bottom: 4rem;
         }
 
         header.masthead4 .masthead-heading {
-            font-size: 3.5rem;
+            font-size: 2.5rem;
             font-weight: 100;
             line-height: 3rem;
             margin-bottom: 1rem;
