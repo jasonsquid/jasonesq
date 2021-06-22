@@ -10435,7 +10435,7 @@ header.masthead5 {
     #video .portfolio-item .portfolio-caption {
         padding: 1.5rem;
         text-align: center;
-        background-color: #fff;
+        background-color: #;
     }
         #video .portfolio-item .portfolio-caption .portfolio-caption-heading {
             font-size: 1.5rem;
@@ -10526,7 +10526,7 @@ header.masthead5 {
 #paintings .portfolio-item .portfolio-caption {
     padding: 1.5rem;
     text-align: center;
-    background-color: #fff;
+    background-color:;
 }
 
 #paintings .portfolio-item .portfolio-caption .portfolio-caption-heading {
@@ -10611,7 +10611,7 @@ header.masthead5 {
             position: absolute;
             width: 100%;
             height: 100%;
-            background: #688099;
+            background: ;
             align-items: center;
             justify-content: center;
             opacity: 0;
@@ -10630,7 +10630,7 @@ header.masthead5 {
     #design .portfolio-item .portfolio-caption {
         padding: 1.5rem;
         text-align: center;
-        background-color: #fff;
+        background-color:;
     }
 
         #design .portfolio-item .portfolio-caption .portfolio-caption-heading {
@@ -10736,7 +10736,7 @@ header.masthead5 {
     #photography .portfolio-item .portfolio-caption {
         padding: 1.5rem;
         text-align: center;
-        background-color: #fff;
+        background-color:;
     }
 
         #photography .portfolio-item .portfolio-caption .portfolio-caption-heading {
