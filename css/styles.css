@@ -10419,7 +10419,7 @@ header.masthead5 {
             position: absolute;
             width: 100%;
             height: 100%;
-            background: #688099;
+            background: transparent;
             align-items: center;
             justify-content: center;
             opacity: 0;
@@ -10502,17 +10502,17 @@ header.masthead5 {
     margin: 0 auto;
 }
 
-#paintings .portfolio-item .portfolio-link .portfolio-hover {
-    display: flex;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #688099;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity ease-in-out 0.25s;
-}
+    #paintings .portfolio-item .portfolio-link .portfolio-hover {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity ease-in-out 0.25s;
+    }
 
 #paintings .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
     font-size: 1.25rem;
